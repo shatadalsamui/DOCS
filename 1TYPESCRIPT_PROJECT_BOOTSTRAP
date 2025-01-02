@@ -1,0 +1,18 @@
+
+{
+TYPECRIPT PROJECT BOOTSTRAP
+
+npm init -y
+npm install typescript
+npx tsc --init
+
+{ tsconfig.json
+"rootDir": "./src",
+"outDir": "./dist",
+}
+
+{
+package.json
+"dev": "tsc -b && node /dist/index.js"}
+
+}

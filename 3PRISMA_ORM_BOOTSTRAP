@@ -1,0 +1,19 @@
+
+Install prisma -
+npm install prisma typescript ts-node @types/node --save-dev
+
+Intialize prisma schema -
+npx prisma init
+
+migrating the database-
+npx prisma migrate dev --name xyz
+
+
+use names accordingly for naming ......
+
+npx prisma generate
+
+{import { PrismaClient } from './generated/prisma'
+
+const prisma = new PrismaClient()
+// use `prisma` in your application to read and write data in your DB}
