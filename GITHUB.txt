@@ -96,9 +96,10 @@ git add <file-name>
 git commit -m "Resolved merge conflict"
 ```
 
----
+--
 
 ## 3. Branch Management
+
 
 ### Create a New Branch
 ```bash
